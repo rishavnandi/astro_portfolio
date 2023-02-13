@@ -36,8 +36,8 @@ export default {
     ],
   },
   twitter: {
-    handle: "@rishav_nandi",
-    site: "@rishav_nandi",
+    handle: "@rishav__nandi",
+    site: "@rishav__nandi",
     cardType: "summary_large_image",
   },
 };
