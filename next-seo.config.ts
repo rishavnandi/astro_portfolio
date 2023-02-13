@@ -1,6 +1,6 @@
 export default {
   title: "Rishav Nandi",
-  titleTemplate: "%s - Rishav Nandi",
+  titleTemplate: "%s - Portfolio",
   description: "My personal website - rishavnandi",
   defaultTitle: "Rishav Nandi",
   additionalLinkTags: [
