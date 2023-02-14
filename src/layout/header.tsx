@@ -18,8 +18,8 @@ const Header = () => {
           <Link href="/">
             <div className="flex items-center space-x-3 text-gray-300 transition-all duration-200 hover:text-gray-100 hover:-translate-y-0.5 mb-4 md:mb-0">
               <Image
-                width={36}
-                height={36}
+                width={128}
+                height={128}
                 src="/images/pic.jpg"
                 alt="Logo"
                 className="rounded-full"
@@ -33,10 +33,9 @@ const Header = () => {
                   key={link.url}
                   href={link.url}
                   className={`dark:text-gray-400 transition-all duration-150 hover:text-gray-400 dark:hover:text-gray-100
-                ${
-                  router.pathname === link.url &&
-                  "dark:text-gray-100 text-gray-400"
-                }`}
+                ${router.pathname === link.url &&
+                    "dark:text-gray-100 text-gray-400"
+                    }`}
                 >
                   {link.url}
                 </CustomLink>
