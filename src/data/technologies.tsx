@@ -5,9 +5,14 @@ import {
   Git,
   Shell,
   Python,
+  <Terraform></Terraform>
 } from "@react-symbols/icons";
 
 export const technologiesData = [
+  {
+    name: "Terraform",
+    icon: <Terraform width={50} />,
+  },
   {
     name: "Docker",
     icon: <Docker width={50} />,

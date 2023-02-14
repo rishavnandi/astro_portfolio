@@ -16,11 +16,6 @@ const nextConfig = {
         permanent: true,
       },
       {
-        source: "/tv",
-        destination: "https://www.twitch.tv/pheralb",
-        permanent: true,
-      },
-      {
         source: "/gh",
         destination: "https://github.com/rishavnandi",
         permanent: true,
