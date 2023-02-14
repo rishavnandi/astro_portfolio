@@ -14,7 +14,7 @@ const DocLayout = ({ doc }: { doc: DocContent }) => {
   return (
     <>
       <Head>
-        <title>{doc.title} - Pablo Hdez</title>
+        <title>{doc.title} - Rishav Nandi</title>
       </Head>
       <CustomContainer>
         <div className="flex items-center justify-between">

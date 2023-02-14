@@ -1,12 +1,4 @@
-<div align="center">
-
-![GitHub stars](https://img.shields.io/github/stars/pheralb/web)
-![GitHub license](https://img.shields.io/github/license/pheralb/web)
-[![Required Node.JS >=16.0.0](https://img.shields.io/static/v1?label=node&message=%20%3E=16.0.0&logo=node.js&color=3f893e)](https://nodejs.org/about/releases)
-
-</div>
-
-## 👋 Welcome
+# My Portfolio Website Remade Using Astro JS
 
 **Personal website** built with:
 
@@ -23,15 +15,15 @@ for Production.
 - [**Hono + Typescript**](https://hono.dev/) - A small, simple, and ultrafast web framework for Cloudflare Workers.
 - [**Cloudflare Workers**](https://workers.cloudflare.com/) - A platform for enabling serverless functions to run as close as possible to the end user.
 
-## 🚀 Contributing
+## Usage
 
-1. Clone the repository:
+- Clone the repository:
 
 ```bash
-git@github.com:pheralb/web.git
+git clone https://rishavnandi/astro_portfolio.git
 ```
 
-2. Install dependencies:
+- Install dependencies:
 
 ```bash
 npm install
@@ -43,7 +35,7 @@ pnpm install
 ultra install
 ```
 
-3. Run the development server:
+- Run the development server:
 
 ```bash
 npm run dev
@@ -55,17 +47,11 @@ pnpm dev
 ultra dev
 ```
 
-📁 Folder structure:
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the changes locally.
 
-```
-[] posts - MDX files.
-[] public - Static files.
-[] resources - Resources API with Cloudflare Workers.
-[] src - Source code.
-```
+## Folder structure
 
-Open up [http://localhost:3000](http://localhost:3000), make your magic and create a pull request.
-
-## 📝 License
-
-- [MIT License](https://github.com/pheralb/web/blob/main/LICENSE).
+- posts - MDX files.
+- public - Static files.
+- resources - Resources API with Cloudflare Workers.
+- src - Source code.
