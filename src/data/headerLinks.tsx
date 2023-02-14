@@ -1,7 +1,7 @@
 export const headerLinks = [
   {
     title: "Home",
-    url: "/",
+    url: "rishavnandi.com",
   }
   {
     title: "Blog",
