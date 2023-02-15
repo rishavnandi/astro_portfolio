@@ -12,34 +12,34 @@ import {
 export const technologiesData = [
   {
     name: "Ansible",
-    icon: <SiAnsible width={200} />,
+    icon: <SiAnsible />,
   },
   {
     name: "Terraform",
-    icon: <SiTerraform width={200} />,
+    icon: <SiTerraform />,
   },
   {
     name: "Docker",
-    icon: <SiDocker width={200} />,
+    icon: <SiDocker />,
   },
   {
     name: "Git",
-    icon: <SiGit width={200} />,
+    icon: <SiGit />,
   },
   {
     name: "Github",
-    icon: <SiGithub width={200} />,
+    icon: <SiGithub />,
   },
   {
     name: "Shell",
-    icon: <SiGnubash width={200} />,
+    icon: <SiGnubash />,
   },
   {
     name: "Python",
-    icon: <SiPython width={200} />,
+    icon: <SiPython />,
   },
   {
     name: "C++",
-    icon: <SiCplusplus width={200} />,
+    icon: <SiCplusplus />,
   },
 ];
