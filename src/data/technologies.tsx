@@ -1,17 +1,24 @@
 import {
-  Database,
-  Markdown,
+  Ansible,
+  Terraform,
   Docker,
-  Git,
   Shell,
   Python,
-  Cplus,
-  C,
-  Github,
   Java,
-} from "@react-symbols/icons";
+  Cplus,
+  Git,
+  Github,
+} from "react-icons";
 
 export const technologiesData = [
+  {
+    name: "Ansible",
+    icon: <Ansible width={50} />,
+  },
+  {
+    name: "Terraform",
+    icon: <Terraform width={50} />,
+  },
   {
     name: "Docker",
     icon: <Docker width={50} />,
@@ -33,23 +40,11 @@ export const technologiesData = [
     icon: <Python width={50} />,
   },
   {
-    name: "C",
-    icon: <C width={50} />,
-  },
-  {
     name: "C++",
     icon: <Cplus width={50} />,
   },
   {
     name: "Java",
     icon: <Java width={50} />,
-  },
-  {
-    name: "MySQL",
-    icon: <Database width={50} />,
-  },
-  {
-    name: "Markdown",
-    icon: <Markdown width={50} />,
   },
 ];
