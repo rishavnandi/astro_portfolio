@@ -40,6 +40,6 @@ export const technologiesData = [
   },
   {
     name: "C++",
-    icon: <SiCplusplus />,
+    icon: <SiCplusplus size={50} />,
   },
 ];
