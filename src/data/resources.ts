@@ -1,1 +1,1 @@
-export const resourcesApi = "https://reapi.pheralb.workers.dev";
+export const resourcesApi = "https://reapi.rishavnandi.workers.dev";

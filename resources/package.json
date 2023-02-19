@@ -1,7 +1,7 @@
 {
   "name": "reapi",
   "description": "A simple serverless API for save and get resources, websites, apps and more.",
-  "author": "@pheralb_",
+  "author": "@rishav_nandi",
   "private": true,
   "version": "0.1.0",
   "scripts": {

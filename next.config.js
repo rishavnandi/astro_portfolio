@@ -6,7 +6,7 @@ const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
   images: {
-    domains: ["reapi.pheralb.workers.dev"],
+    domains: ["reapi.rishavnandi.workers.dev"],
   },
   async redirects() {
     return [
@@ -22,7 +22,7 @@ const nextConfig = {
       },
       {
         source: "/reapi",
-        destination: "https://reapi.pheralb.workers.dev/",
+        destination: "https://reapi.rishavnandi.workers.dev/",
         permanent: true,
       },
     ];
