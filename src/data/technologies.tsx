@@ -28,11 +28,11 @@ export const technologiesData = [
   },
   {
     name: "Github",
-    icon: <SiGithub size={50} style={{ color: "#ff5750" }} />,
+    icon: <SiGithub size={50} style={{ color: "#888b95" }} />,
   },
   {
     name: "Shell",
-    icon: <SiGnubash size={50} style={{ color: "#ff5750" }} />,
+    icon: <SiGnubash size={50} style={{ color: "#434345" }} />,
   },
   {
     name: "Python",
