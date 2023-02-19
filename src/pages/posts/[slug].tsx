@@ -26,7 +26,7 @@ const DocLayout = ({ doc }: { doc: DocContent }) => {
           </CustomLink>
           <div className="flex items-center space-x-5">
             <ExternalLink
-              href={`https://github.com/rishavnandi/astro_portfolio/posts/${doc.url
+              href={`https://github.com/rishavnandi/astro_portfolio/blob/master/posts/${doc.url
                 .split("/")
                 .slice(2)
                 .join("/")}.mdx`}
