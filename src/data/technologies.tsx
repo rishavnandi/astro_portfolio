@@ -7,6 +7,9 @@ import {
   SiCplusplus,
   SiGit,
   SiGithub,
+  SiLinux,
+  SiPandas,
+  SiVagrant,
 } from "react-icons/si";
 
 export const technologiesData = [
@@ -23,6 +26,18 @@ export const technologiesData = [
     icon: <SiDocker size={50} style={{ color: "#2496ed" }} />,
   },
   {
+    name: "Python",
+    icon: <SiPython size={50} style={{ color: "#fed140" }} />,
+  },
+  {
+    name: "Pandas",
+    icon: <SiPandas size={50} style={{ color: "#ff0474" }} />,
+  },
+  {
+    name: "Vagrant",
+    icon: <SiVagrant size={50} style={{ color: "#127eff" }} />,
+  },
+  {
     name: "Git",
     icon: <SiGit size={50} style={{ color: "#f05030" }} />,
   },
@@ -31,15 +46,15 @@ export const technologiesData = [
     icon: <SiGithub size={50} style={{ color: "#888b95" }} />,
   },
   {
-    name: "Shell",
-    icon: <SiGnubash size={50} style={{ color: "#434345" }} />,
-  },
-  {
-    name: "Python",
-    icon: <SiPython size={50} style={{ color: "#fed140" }} />,
-  },
-  {
     name: "C++",
     icon: <SiCplusplus size={50} style={{ color: "#00549e" }} />,
+  },
+  {
+    name: "Linux",
+    icon: <SiLinux size={50} />,
+  },
+  {
+    name: "Shell",
+    icon: <SiGnubash size={50} />,
   },
 ];
