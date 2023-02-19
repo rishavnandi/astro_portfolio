@@ -38,14 +38,14 @@ After the flashing is done, you'll see a new volume in "This PC" menu called "bo
 
 With that done, you can now eject the microSD card from your computer. Now put the SD card into the Raspberry Pi, plug your Ethernet cable into the router and into the board, then finally plug the USB-C cable into it. In case you want to set your Raspberry Pi up with a monitor, you also need to plug in a monitor, a keyboard and a mouse into it at this point.
 
-{{ image(src="/images/pi_vpn/plugged_in", alt="Raspberry Pi 4") }}
+![Raspberry Pi 4](/images/pi_vpn/plugged_in)
 
 
 ## For monitor users
 
 The initial setup wizard on Raspberry Pi OS will guide you through the initial setup process, including changing the password and installing the updates. Afterwards, the installer will prompt you to reboot the board – do it and skip to the "Dynamic DNS" section.
 
-{{ image(src="/images/pi_vpn/raspberrypios.png", alt="Raspberry Pi OS Desktop") }}
+![Raspberry Pi OS Desktop](/images/pi_vpn/raspberrypios.png)
 
 ## Logging into the system
 
@@ -65,7 +65,7 @@ You can use right mouse button to paste text in Windows PowerShell.
 
 Answer "yes" to the next question, and type `raspberry` when asked for a password. **The password will not be shown on the screen**, not even the asterisks, and that applies to all of the password fields in the Linux command line interface.
 
-{{ image(src="/images/pi_vpn/loggedin.png", alt="Raspberry Pi SSH greeting") }}
+![Raspberry Pi SSH greeting](/images/pi_vpn/loggedin.png)
 
 ## Changing the password
 
@@ -89,7 +89,7 @@ Now that all of the preparations are finished, we need to get ourselves a dynami
 
 After registering on the website and activating your account via email, click on the "Add a subdomain". Here, the things we need to change are:
 
-{{ image(src="/images/pi_vpn/freedns.png", alt="FreeDNS settings") }}
+![FreeDNS settings](src="/images/pi_vpn/freedns.png")
 
 * Subdomain – put whatever you want here
 * Domain – same
@@ -187,7 +187,7 @@ Set up a new port forwarding entry for Raspberry Pi in your router's administrat
 
 Here's what the settings look like on a FritzBox router:
 
-{{ image(src="/images/pi_vpn/portfwd.png", alt="Port forwarding settings") }}
+![Port forwarding settings](src="/images/pi_vpn/portfwd.png")
 
 ## Installing Wireguard VPN
 
@@ -215,7 +215,7 @@ Install the Wireguard app from Google Play or App Store
 
 Scan the QR code shown in the terminal using the function **Create from QR code** in the app.
 
-{{ image(src="/images/pi_vpn/qr_code.png", alt="FreeDNS Settings") }}
+![FreeDNS Settings](src="/images/pi_vpn/qr_code.png")
 
 Disconnect from the WiFi and test the VPN connection using cellular network. Your can check your external IP address [here](http://whoer.net).
 
@@ -236,6 +236,6 @@ After you've entered your password, you can now copy the configuration file to y
 
 Now you can download the Wireguard desktop app and import the config file into it.
 
-{{ image(src="/images/pi_vpn/wireguard_desktop.png", alt="Wireguard Desktop") }}
+![Wireguard Desktop](src="/images/pi_vpn/wireguard_desktop.png")
 
 **Wireguard client apps:** [https://www.wireguard.com/install/](https://www.wireguard.com/install/)
