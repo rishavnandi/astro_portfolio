@@ -51,10 +51,10 @@ export const technologiesData = [
   },
   {
     name: "Linux",
-    icon: <SiLinux size={50} />,
+    icon: <SiLinux size={50} style={{ color: "#fe9329" }} />,
   },
   {
     name: "Shell",
-    icon: <SiGnubash size={50} />,
+    icon: <SiGnubash size={50} style={{ color: "#8096a8" }} />,
   },
 ];
