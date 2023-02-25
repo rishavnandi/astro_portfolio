@@ -23,7 +23,6 @@ export default function App({ Component, pageProps, router }: AppProps) {
     <ThemeProvider attribute="class">
       <DefaultSeo {...nextSeoConfig} />
       <NProgress />
-      <Warning />
       <Header />
       <Routing key={router.route}>
         <Component {...pageProps} />
