@@ -2,6 +2,7 @@ import {
   SiAnsible,
   SiTerraform,
   SiDocker,
+  SiKubernetes,
   SiGnubash,
   SiPython,
   SiCplusplus,
@@ -25,6 +26,10 @@ export const technologiesData = [
   {
     name: "Docker",
     icon: <SiDocker size={50} style={{ color: "#2496ed" }} />,
+  },
+  {
+    name: "Kubernetes",
+    icon: <SiKubernetes size={50} style={{ color: "#326ce5" }} />,
   },
   {
     name: "Jenkins",
