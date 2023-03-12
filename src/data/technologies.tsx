@@ -8,6 +8,7 @@ import {
   SiMysql,
   SiGnubash,
   SiPython,
+  SiNumpy,
   SiCplusplus,
   SiGit,
   SiGithub,
@@ -44,10 +45,6 @@ export const technologiesData = [
     icon: <SiGithubactions size={50} style={{ color: "#2c7ef6" }} />,
   },
   {
-    name: "Python",
-    icon: <SiPython size={50} style={{ color: "#fed140" }} />,
-  },
-  {
     name: "Aws",
     icon: <SiAmazonaws size={50} style={{ color: "#fa9600" }} />,
   },
@@ -60,12 +57,20 @@ export const technologiesData = [
     icon: <SiMysql size={50} style={{ color: "#ec9800" }} />,
   },
   {
+    name: "Vagrant",
+    icon: <SiVagrant size={50} style={{ color: "#127eff" }} />,
+  },
+  {
+    name: "Python",
+    icon: <SiPython size={50} style={{ color: "#fed140" }} />,
+  },
+  {
     name: "Pandas",
     icon: <SiPandas size={50} style={{ color: "#ff0474" }} />,
   },
   {
-    name: "Vagrant",
-    icon: <SiVagrant size={50} style={{ color: "#127eff" }} />,
+    name: "Numpy",
+    icon: <SiNumpy size={50} style={{ color: "#00acc1" }} />,
   },
   {
     name: "Git",
@@ -76,15 +81,15 @@ export const technologiesData = [
     icon: <SiGithub size={50} style={{ color: "#888b95" }} />,
   },
   {
-    name: "C++",
-    icon: <SiCplusplus size={50} style={{ color: "#00549e" }} />,
-  },
-  {
     name: "Linux",
     icon: <SiLinux size={50} style={{ color: "#fe9329" }} />,
   },
   {
     name: "Shell",
     icon: <SiGnubash size={50} style={{ color: "#8096a8" }} />,
+  },
+  {
+    name: "C++",
+    icon: <SiCplusplus size={50} style={{ color: "#00549e" }} />,
   },
 ];
