@@ -3,11 +3,15 @@ import {
   SiTerraform,
   SiDocker,
   SiKubernetes,
+  SiAmazonaws,
+  SiGooglecloud,
+  SiMysql,
   SiGnubash,
   SiPython,
   SiCplusplus,
   SiGit,
   SiGithub,
+  SiGithubactions,
   SiLinux,
   SiPandas,
   SiVagrant,
@@ -36,8 +40,24 @@ export const technologiesData = [
     icon: <SiJenkins size={50} style={{ color: "#fadcaf" }} />,
   },
   {
+    name: "GithubActions",
+    icon: <SiGithubactions size={50} style={{ color: "#2c7ef6" }} />,
+  },
+  {
     name: "Python",
     icon: <SiPython size={50} style={{ color: "#fed140" }} />,
+  },
+  {
+    name: "Aws",
+    icon: <SiAmazonaws size={50} style={{ color: "#fa9600" }} />,
+  },
+  {
+    name: "GoogleCloud",
+    icon: <SiGooglecloud size={50} style={{ color: "#4caf50" }} />,
+  },
+  {
+    name: "Mysql",
+    icon: <SiMysql size={50} style={{ color: "#ec9800" }} />,
   },
   {
     name: "Pandas",
