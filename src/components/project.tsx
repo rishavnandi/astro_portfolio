@@ -13,14 +13,14 @@ const Project = (props: iData) => {
         {props.url ? (
           <ExternalLink href={props.url}>
             <div className="flex items-center space-x-2">
-              <h1 className="text-xl font-medium hover:text-gray-600 dark:hover:text-gray-300">
+              <a href={props.gh ? props.gh : ""} className="text-xl font-medium hover:text-gray-600 dark:hover:text-gray-300">
                 {props.title}
-              </h1>
+              </a>
               <FiArrowUpRight size={13} />
             </div>
           </ExternalLink>
         ) : (
-          <h1 className="text-xl font-medium">{props.title}</h1>
+          <a href={props.gh ? props.gh : ""} className="text-xl font-medium">{props.title}</a>
         )}
         <ExternalLink href={props.gh ? props.gh : ""}>
           <BsGithub
