@@ -12,7 +12,7 @@ const nextConfig = {
     return [
       {
         source: "/tw",
-        destination: "https://twitter.com/rishav_nandi",
+        destination: "https://twitter.com/rishav__nandi",
         permanent: true,
       },
       {

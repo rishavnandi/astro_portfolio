@@ -7,7 +7,7 @@ export const socialsLinks = [
     icon: <BsGithub size={19} name="Github" />,
   },
   {
-    url: "https://twitter.com/rishav_nandi",
+    url: "https://twitter.com/rishav__nandi",
     icon: <BsTwitter size={19} name="Twitter" />,
   },
   {
