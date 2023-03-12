@@ -10,6 +10,7 @@ import {
   SiLinux,
   SiPandas,
   SiVagrant,
+  SiJenkins,
 } from "react-icons/si";
 
 export const technologiesData = [
@@ -24,6 +25,10 @@ export const technologiesData = [
   {
     name: "Docker",
     icon: <SiDocker size={50} style={{ color: "#2496ed" }} />,
+  },
+  {
+    name: "Jenkins",
+    icon: <SiJenkins size={50} style={{ color: "#2496ed" }} />,
   },
   {
     name: "Python",
