@@ -28,7 +28,7 @@ export const technologiesData = [
   },
   {
     name: "Jenkins",
-    icon: <SiJenkins size={50} style={{ color: "#2496ed" }} />,
+    icon: <SiJenkins size={50} style={{ color: "#fadcaf" }} />,
   },
   {
     name: "Python",
