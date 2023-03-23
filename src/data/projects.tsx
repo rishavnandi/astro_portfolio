@@ -1,5 +1,13 @@
 export const projects = [
   {
+    title: "Ansible Homelab",
+    description: "📦 Ansible playbooks that install Docker and deploy my homelab services.",
+    gh: "https://github.com/rishavnandi/ansible_homelab",
+    image: "/images/screenshots/svgl.png",
+    type: "Ansible Playbook",
+    tags: ["Ansible", "Git", "Docker", "Linux"],
+  },
+  {
     title: "Ansible Selfhosted VPN",
     description: "💻 A simple Ansible playbook to deploy WireGuard on a server.",
     gh: "https://github.com/rishavnandi/ansible_selfhost_vpn",
