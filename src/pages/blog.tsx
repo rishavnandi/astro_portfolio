@@ -42,3 +42,5 @@ export async function getStaticProps() {
 }
 
 export default Blog;
+
+export const runtime = "edge";
