@@ -69,6 +69,4 @@ export async function getStaticPaths() {
   };
 }
 
-export const runtime = "edge";
-
 export default DocLayout;

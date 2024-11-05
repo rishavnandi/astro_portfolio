@@ -16,5 +16,3 @@ const Contact = (props: Props) => {
 };
 
 export default Contact;
-
-export const runtime = "edge";

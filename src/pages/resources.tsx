@@ -47,20 +47,6 @@ const Resources = ({
       <div className="mt-8">
         {selectedCategory === "all"
           ? data.map((resource: iResources) => (
-            <CardUrl
-              key={resource.title}
-              title={resource.title}
-              url={resource.url}
-              description={resource.description}
-              image={`${resourcesApi}${resource.img}`}
-              className="mb-3"
-            />
-          ))
-          : data
-            .filter(
-              (resource: iResources) => resource.category === selectedCategory
-            )
-            .map((resource: iResources) => (
               <CardUrl
                 key={resource.title}
                 title={resource.title}
@@ -69,7 +55,21 @@ const Resources = ({
                 image={`${resourcesApi}${resource.img}`}
                 className="mb-3"
               />
-            ))}
+            ))
+          : data
+              .filter(
+                (resource: iResources) => resource.category === selectedCategory
+              )
+              .map((resource: iResources) => (
+                <CardUrl
+                  key={resource.title}
+                  title={resource.title}
+                  url={resource.url}
+                  description={resource.description}
+                  image={`${resourcesApi}${resource.img}`}
+                  className="mb-3"
+                />
+              ))}
       </div>
     </CustomContainer>
   );
@@ -80,7 +80,5 @@ export const getServerSideProps: GetServerSideProps = async () => {
   const data: iResources[] = await res.json();
   return { props: { data } };
 };
-
-export const runtime = "edge";
 
 export default Resources;

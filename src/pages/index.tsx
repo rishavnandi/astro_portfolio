@@ -57,5 +57,3 @@ export async function getStaticProps() {
   });
   return { props: { posts } };
 }
-
-export const runtime = "edge";

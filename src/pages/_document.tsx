@@ -11,5 +11,3 @@ export default function Document() {
     </Html>
   )
 }
-
-export const runtime = "edge";
