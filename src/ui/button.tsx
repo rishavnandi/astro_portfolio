@@ -1,21 +1,34 @@
-import React from "react";
+import { BaseProps } from '@/types';
 
-interface ButtonProps extends React.ButtonHTMLAttributes<HTMLButtonElement> {
-  children: React.ReactNode;
+interface ButtonProps extends BaseProps {
   type?: "button" | "submit" | "reset";
   onClick?: () => void;
-  className?: string;
+  disabled?: boolean;
+  variant?: 'primary' | 'secondary';
 }
 
-const Button = (props: ButtonProps) => {
+const Button = ({
+  children,
+  type = "button",
+  onClick,
+  disabled,
+  className,
+  variant = 'primary'
+}: ButtonProps) => {
+  const baseStyles = "px-4 py-2 text-sm font-medium rounded-md transition-colors duration-200";
+  const variants = {
+    primary: "bg-neutral-900 text-white hover:bg-neutral-800 dark:hover:bg-neutral-700",
+    secondary: "bg-transparent border border-neutral-300 dark:border-neutral-700 hover:bg-neutral-100 dark:hover:bg-neutral-800"
+  };
+
   return (
     <button
-      className={`px-4 py-2 text-sm font-medium text-white transition-colors duration-200 bg-neutral-900 rounded-md hover:bg-neutral-900 dark:hover:bg-neutral-800 border dark:border-neutral-800 ${props.className}`}
-      type={props.type}
-      onClick={props.onClick}
-      {...props}
+      type={type}
+      onClick={onClick}
+      disabled={disabled}
+      className={`${baseStyles} ${variants[variant]} ${className}`}
     >
-      {props.children}
+      {children}
     </button>
   );
 };
